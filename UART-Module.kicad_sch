@@ -1947,13 +1947,13 @@
   (symbol (lib_id "Device:C") (at 118.11 129.54 270) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 40d4b5e7-a1a9-4094-80c3-6bf0e27a7559)
-    (property "Reference" "C2" (at 118.11 122.174 90)
+    (property "Reference" "C1" (at 118.11 122.174 90)
       (effects (font (size 1.27 1.27)))
     )
     (property "Value" "1uF" (at 118.11 124.714 90)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric" (at 114.3 130.5052 0)
+    (property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder" (at 114.3 130.5052 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "~" (at 118.11 129.54 0)
@@ -1964,7 +1964,7 @@
     (instances
       (project "UART-Module"
         (path "/1f20a268-715c-40e1-b980-8678b0e31942"
-          (reference "C2") (unit 1)
+          (reference "C1") (unit 1)
         )
       )
       (project "PIA-module"
@@ -2468,7 +2468,7 @@
       )
       (project "UART-Module"
         (path "/1f20a268-715c-40e1-b980-8678b0e31942"
-          (reference "C3") (unit 1)
+          (reference "C2") (unit 1)
         )
       )
     )
@@ -2489,20 +2489,20 @@
     (property "Datasheet" "http://www.ti.com/lit/gpn/sn74ls02" (at 81.28 163.83 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "1" (uuid de22c443-878e-4f4a-b0db-196b2a46559c))
-    (pin "2" (uuid 0f272b08-9248-403f-8a09-777633279ca8))
-    (pin "3" (uuid cb49ae55-4432-4eb8-b964-129d27113555))
+    (pin "1" (uuid de22c443-878e-4f4a-b0db-196b2a46559d))
+    (pin "2" (uuid 0f272b08-9248-403f-8a09-777633279ca9))
+    (pin "3" (uuid cb49ae55-4432-4eb8-b964-129d27113556))
     (pin "4" (uuid 3606d455-e61c-4279-88d2-8c9fb226d8cc))
     (pin "5" (uuid c03afefb-d12f-42a8-8aab-68f83814aae5))
     (pin "6" (uuid f4324879-24d3-4b58-bb94-dd34bab67209))
-    (pin "10" (uuid ba414ce9-1fae-49eb-bf9e-fe5aa55a6266))
-    (pin "8" (uuid 38279c7d-56ab-4aa9-8136-b3716284d0b9))
-    (pin "9" (uuid 7bfda467-adb8-4cd0-87de-7b64b7ea9595))
-    (pin "11" (uuid c1fa07e1-4928-471a-be78-c6d43afe0166))
-    (pin "12" (uuid 7bcc063c-c03b-404c-8a7d-5c450231f5ea))
-    (pin "13" (uuid 535759cf-5456-4b72-95c2-3bbf4671742d))
-    (pin "14" (uuid 120c0783-6f37-4be4-a197-d9739c1a0052))
-    (pin "7" (uuid 1e36763e-275e-4dd8-804b-f9e68f897f30))
+    (pin "10" (uuid ba414ce9-1fae-49eb-bf9e-fe5aa55a6267))
+    (pin "8" (uuid 38279c7d-56ab-4aa9-8136-b3716284d0ba))
+    (pin "9" (uuid 7bfda467-adb8-4cd0-87de-7b64b7ea9596))
+    (pin "11" (uuid c1fa07e1-4928-471a-be78-c6d43afe0167))
+    (pin "12" (uuid 7bcc063c-c03b-404c-8a7d-5c450231f5eb))
+    (pin "13" (uuid 535759cf-5456-4b72-95c2-3bbf4671742e))
+    (pin "14" (uuid 120c0783-6f37-4be4-a197-d9739c1a0053))
+    (pin "7" (uuid 1e36763e-275e-4dd8-804b-f9e68f897f31))
     (instances
       (project "UART-Module"
         (path "/1f20a268-715c-40e1-b980-8678b0e31942"
