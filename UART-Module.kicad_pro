@@ -45,7 +45,7 @@
         "silk_text_thickness": 0.15,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.5
+          "min_clearance": 0.508
         }
       },
       "diff_pair_dimensions": [],
@@ -475,6 +475,10 @@
     [
       "e91ab245-9dc7-4bdd-9446-5afe93f7dd60",
       "ExpansionPort"
+    ],
+    [
+      "190c9015-1db8-432c-afcf-eb13eef2f656",
+      "Address Control"
     ]
   ],
   "text_variables": {}
