@@ -4,6 +4,11 @@
 
   (paper "A4")
 
+  (title_block
+    (date "2023-05-02")
+    (rev "1.2")
+  )
+
   (lib_symbols
     (symbol "Connector:DE9_Receptacle_MountingHoles" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
       (property "Reference" "J" (at 0 16.51 0)
@@ -1848,7 +1853,7 @@
     (property "Value" "MAX232ID" (at 124.1299 51.562 0)
       (effects (font (size 1.27 1.27)) (justify left))
     )
-    (property "Footprint" "Package_SO:SOIC-16W_7.5x10.3mm_P1.27mm" (at 123.444 105.156 0)
+    (property "Footprint" "Package_SO:SOIC-16_4.55x10.3mm_P1.27mm" (at 123.444 105.156 0)
       (effects (font (size 1.27 1.27)) (justify left) hide)
     )
     (property "Datasheet" "http://www.ti.com/lit/ds/symlink/max232.pdf" (at 122.174 75.946 0)
